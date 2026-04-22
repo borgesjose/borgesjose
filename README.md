@@ -2,9 +2,11 @@
 
 <div align="center">
 
-<!-- Animated header banner using shields and badges -->
+<h2>⚡ Solar Engineering Lead &nbsp;·&nbsp; MSc AI & Control &nbsp;·&nbsp; Quantum Computing</h2>
 
-![Header](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=José%20Borges&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=Solar%20Engineering%20Lead%20%7C%20MSc%20AI%20%26%20Control%20%7C%20Quantum%20Computing&descAlignY=55&descSize=16)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/joseborges-n)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:jose.borges90@hotmail.com)
+[![Location](https://img.shields.io/badge/Teresina%2C%20Brazil-1A6B5E?style=for-the-badge&logo=googlemaps&logoColor=white)](#)
 
 </div>
 
@@ -110,6 +112,6 @@ profile = {
 
 *"The intersection of solar energy and quantum computing is not the future — it's the next frontier."*
 
-![Footer](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer)
+![visitors](https://visitor-badge.laobi.icu/badge?page_id=borgesjose.borgesjose&style=for-the-badge)
 
 </div>
