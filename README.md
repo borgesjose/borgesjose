@@ -52,17 +52,34 @@ profile = {
 
 ## 🏗️ Key Projects
 
-- **NetLux EPC portfolio — 11 plants, 43.5 MVA** (2021 to present). Engineer of Record for the engineering,
+- **EPC portfolio — 11 solar plants, 43.5 MVA** (2021 to present). Engineer of Record for the engineering,
   detailed design and construction of 0.5 to 5 MVA plants connected at medium voltage in Piauí and
   Pernambuco. Five completed and six under construction.
   🗺️ [Interactive map of the plants](https://mapa-epc-netlux.netlify.app/), built with AI from the projects' KMZ files.
-- **Junco 1 and 2 PV plants — 5 MW** (2024). Design and construction of two 2,500 kW plants at medium
-  voltage, with indoor substation, grounding, lightning protection and protection study.
-- **Nova Longá, Altos and Longá PV plants — 8.2 MWp** (2022–2023). Construction, with a 13.8 kV network,
+- **5 MW ground-mounted plant at medium voltage** (2024). Design and construction of two 2,500 kW plants,
+  with indoor substation, grounding, lightning protection and protection study.
+- **8.2 MWp cluster of three DG plants** (2022–2023). Construction, with a 13.8 kV network,
   3 metering cubicles and 3 substations (7,000 kVA).
-- **São José PV plant — 649 kWp** (2023). Design and construction, with a 600 kVA indoor substation.
-- **Faculdade Santo Agostinho rooftop plant — 1 MWp** (2021). Design in BIM, split into three systems
-  (490, 390 and 160 kWp).
+- **649 kWp DG plant** (2023). Design and construction, with a 600 kVA indoor substation.
+- **1 MWp rooftop plant** (2021). Design in BIM, split into three systems (490, 390 and 160 kWp)
+  to serve three buildings.
+
+---
+
+## 🧰 Tools I'm Building
+
+Software for PV engineering workflows, developed alongside the plant projects.
+
+- **KML ⇄ CAD converter** (Python · FastAPI · Streamlit · ezdxf). Web app that converts Google Earth
+  KML/KMZ files into DXF drawings in real UTM coordinates (WGS84/SIRGAS 2000) and back. Before converting,
+  it checks the DXF and reports what will and won't carry over (position, layers, blocks), and it can
+  export only the main equipment as map pins, one per block. Core conversion and web interface done,
+  now being tested on real projects.
+- **Chain-link fence plugin for SketchUp** (Ruby). Extension that generates a plant's perimeter fence
+  over drawn lines: posts, mesh, barbed wire, braces, concrete footings and tension wires, following
+  irregular terrain. Currently at v1.4.
+- **CAD automation** (AutoLISP · Python). Routines for repetitive drafting and documentation tasks
+  in PV plant design. In progress.
 
 ---
 
@@ -122,7 +139,8 @@ profile = {
   ├── 🎓 Quantum Computing Specialization @ SENAI CIMATEC
   ├── ⚡ Leading 5 MVA Solar Plants (Utility Scale & DG)
   ├── 🔋 Deepening Battery Energy Storage Systems (BESS)
-  └── 🔬 Researching Quantum Optimization for Power Systems
+  ├── 🔬 Researching Quantum Optimization for Power Systems
+  └── 💻 Building PV Engineering Tools (KML ⇄ CAD, SketchUp plugins)
 ```
 
 ---
